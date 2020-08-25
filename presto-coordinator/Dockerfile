@@ -1,7 +1,7 @@
 ARG VERSION
 
 FROM chethanuk/presto-base:${VERSION}
-MAINTAINER chethanuk
+#MAINTAINER chethanuk
 
 ADD etc /usr/local/presto/etc
 

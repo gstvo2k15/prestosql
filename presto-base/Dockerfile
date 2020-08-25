@@ -3,7 +3,7 @@
 #
 
 FROM openjdk:8-slim
-MAINTAINER chethanuk
+#MAINTAINER chethanuk
 
 ARG VERSION
 ENV PRESTO_VERSION=${VERSION}
